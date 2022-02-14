@@ -4,8 +4,21 @@
 
 #include <stdio.h>
 
-int main() {
-  
+int main() 
+{
+  int mark1, mark2, sum;
+  float average;
+
+  printf("Enter subject 1 mark : ");
+  scanf("%d", &mark1);
+
+  printf("Enter subject 2 mark : ");
+  scanf("%d", &mark2);
+
+  sum = mark1 + mark2;
+  average = sum/2.0;
+
+  printf("Average : %.2f", average);
+
   return 0;
 }
-
